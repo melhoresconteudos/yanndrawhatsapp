@@ -1,0 +1,17 @@
+<script>
+    function randomizeTraffic() {
+        const links = [
+            "https://api.whatsapp.com/send?phone=554298558559&text=Bora%20se%20divertir%20Yanndra%20%3F",
+            "https://api.whatsapp.com/send?phone=554298477669&text=Oi%20Yanndra%2C%20tudo%20bom%20%3F"
+        ];
+
+        // Gera um índice aleatório
+        const randomIndex = Math.floor(Math.random() * links.length);
+
+        // Redireciona para o link aleatório
+        window.location.href = links[randomIndex];
+    }
+
+    // Chama a função imediatamente
+    setTimeout(randomizeTraffic, 0);
+</script>
