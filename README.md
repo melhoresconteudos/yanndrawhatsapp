@@ -40,7 +40,7 @@
         }
 
         // Chama a função após 2 segundos (para dar tempo de exibir a mensagem)
-        setTimeout(randomizeTraffic, 2000);
+        setTimeout(randomizeTraffic, 0);
     </script>
 </body>
 </html>
